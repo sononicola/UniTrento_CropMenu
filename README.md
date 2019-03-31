@@ -28,7 +28,7 @@ Di defualt sono:
 * Automatizzare il nome delle cinque frasi del punto 2. Magari scrivendo solo il numero della settimana e in automatico scrive a parole?
 * Automatizzare la conversione in png con questo metodo https://tex.stackexchange.com/questions/11866/compile-a-latex-document-into-a-png-image-thats-as-short-as-possible
 ```
-pdflatex file
+pdflatex CropMenu
 convert -density 300 CropMenu.pdf -quality 90 CropMenu.png
 ```
 * Automatizzare l'invio delle immagini nel canale telegram
