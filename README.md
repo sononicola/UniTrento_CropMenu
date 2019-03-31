@@ -3,12 +3,12 @@ This is LaTeX code to (semi) automatize the cropped Menus sent in the Telegram c
 
 ## Cosa fare:
 1. Scaricare i due PDF dei menù da https://www.operauni.tn.it/servizi/ristorazione/menu e metterli nella cartella con i nomi "scelta" e "lesto"
-2. Aprire il file .TeX e rinominare le cinque frasi "\newcommand{\fraseuno}{MENÙ SETTIMANA 31 NOVEMBRE - 05 DICEMBRE 2019}" con il nome appropriato. _(Le ho inizializzate con novembre e dicembre per testare se ci stavano nella pagina)_
+2. Aprire il file .TeX e rinominare le cinque frasi ``\newcommand{\fraseuno}{MENÙ SETTIMANA 31 NOVEMBRE - 05 DICEMBRE 2019}`` con il nome appropriato. _(Le ho inizializzate con novembre e dicembre per testare se ci stavano nella pagina)_
 3. Aggiustare i valori di TRIM (crop della parte inutile dei pdf). Bisogna farlo per ogni pdf perché l'Opera non sa fare i pdf allineati nelle varie pagine alla stessa altezza 🤷‍♂️ 
 Di defualt sono:
 ```
 %Trim: sinistra - sotto - destra - sopra
-%        0      16      0        2
+%           0      16      0        2
 ```
 4. Compilare e visulizzare il pdf
 5. Vedere se ci sono sono problemi di crop
